@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/12209d5a8b.js" crossorigin="anonymous"></script>
+        <!--CKEditor-->
+        <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+
+    <title>Madmin Posts</title>
+</head>
+<body>
+    <nav class="blue darken-2">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="Madmin.html" class="brand-logo">Madmin</a>
+
+                <!--sidenav trigger-->
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active">
+                        <a href="Madmin.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="posts.html">Posts</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="comments.html">Comments</a>
+                    </li>
+                    <li>
+                        <a href="users.html">Users</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--sidenav-->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-tsushima-directors-cut-homepage-hero-listing-thumb-01-ps5-09jun21$en?$1600px$">
+                </div>
+                <a href="">
+                    <img src="img/ocean.jpg" alt="">
+                </a>
+            </div>
+        </li>
+    </ul>
+
+<!--Footer-->
+<footer class="section blue darken-2 white-text center">
+    <p>Madmin Panel Copyright &copy; 2021</p>
+</footer>
+
+
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!--Compile and minified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--CKEDitor-->
+    <script src="https://cdn.ckeditor.com/[version.number]/[distribution]/ckeditor.js"></script>
+
+<script>
+    $(document).ready(function(){
+    //Sidenav
+    $('.sidenav').sidenav();
+    
+    });
+</script>
+</body>
+</html>
